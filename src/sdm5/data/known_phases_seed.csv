@@ -1,0 +1,38 @@
+phase_name,chemsys,formula,comp_range,space_group,prototype,T_range,source,report_status,verified,note
+Al13Fe4,Al-Fe,Al13Fe4,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Al5Fe2,Al-Fe,Al5Fe2,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Al2Fe,Al-Fe,Al2Fe,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+FeAl,Al-Fe,FeAl,,,B2,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Fe3Al,Al-Fe,Fe3Al,,,D03,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Al3Ti,Al-Ti,Al3Ti,,,D022,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Al2Ti,Al-Ti,Al2Ti,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+TiAl,Al-Ti,TiAl,,,L10,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Ti3Al,Al-Ti,Ti3Al,,,D019,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+theta,Al-Cu,Al2Cu,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+AlCu,Al-Cu,AlCu,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+gamma,Al-Cu,Al4Cu9,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Fe3Si,Fe-Si,Fe3Si,,,D03,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+FeSi,Fe-Si,FeSi,,,B20,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+beta-FeSi2,Fe-Si,FeSi2,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Fe5Si3,Fe-Si,Fe5Si3,,,,高温相,E-2 P0 代表例,バルクの平衡相,False,高温相。文献で要確認
+Ti3Si,Si-Ti,Ti3Si,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Ti5Si3,Si-Ti,Ti5Si3,,,Mn5Si3,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Ti5Si4,Si-Ti,Ti5Si4,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+TiSi,Si-Ti,TiSi,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+TiSi2,Si-Ti,TiSi2,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Cu3Si,Cu-Si,Cu3Si,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Cu15Si4,Cu-Si,Cu15Si4,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+FeTi,Fe-Ti,FeTi,,,B2,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Fe2Ti,Fe-Ti,Fe2Ti,,,C14,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Cu4Ti,Cu-Ti,Cu4Ti,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Cu2Ti,Cu-Ti,Cu2Ti,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Cu4Ti3,Cu-Ti,Cu4Ti3,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+CuTi,Cu-Ti,CuTi,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+CuTi2,Cu-Ti,CuTi2,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+tau1,Al-Fe-Si,Al2Fe3Si3,,,,,E-2 P0 代表例,バルクの平衡相,False,τ1〜τ11 の組成と名称は文献で要確認
+omega,Al-Cu-Fe,Al7Cu2Fe,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+i-phase,Al-Cu-Fe,Al62Cu25Fe13,範囲あり,,正二十面体準結晶,,E-2 P0 代表例,バルクの平衡相,False,準結晶。近似結晶で代用。組成は代表値
+tau1,Al-Si-Ti,Ti7Al5Si12,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+TiFeSi,Fe-Si-Ti,TiFeSi,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+TiFeSi2,Fe-Si-Ti,TiFeSi2,,,,,E-2 P0 代表例,バルクの平衡相,False,文献で要確認
+Fe2TiSi,Fe-Si-Ti,Fe2TiSi,,,L21,,E-2 P0,要確認,False,バルクの平衡相として確立しているか不確か。確認まで正例・正解に使わない

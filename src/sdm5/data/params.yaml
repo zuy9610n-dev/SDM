@@ -1,0 +1,51 @@
+# 仮の値(上位文書 v0.2 + v0.2.1 修正メモ)。変更時は params_version を上げる。
+params_version: "0.2.1-2026-09-29"
+
+composition:
+  elements: [Al, Si, Ti, Fe, Cu]      # 上位文書 3-1 の固定順
+  delta_base: 5.0                     # at%
+  delta_fine: 2.5                     # at%
+  fine_al_min: 60.0                   # x_Al >= 60 で細分区画
+  match_threshold_at: 3.0             # 照合のしきい値 d (at%)
+
+e1:
+  dT_safe_K: 30.0                     # 仮。C1 で「誤差最大値×2、ただし20K以上」
+  dT_safe_min_K: 20.0
+  delta_S_at: 5.0                     # 到達可能集合 S の余裕幅 δ
+  dT_low_conf_K: 50.0                 # R11: 低信頼区画がこの範囲内なら要DSC確認
+  solidus_t_lo_K: 600.0
+  solidus_t_hi_K: 1800.0
+  solidus_step_K: 10.0
+  liquid_eps: 1.0e-4
+  t_anneal_max_h: 300.0               # 焼鈍時間の上限
+  t_ad_self_propagating_K: 1800.0     # Merzhanov 基準(目安)
+
+d:
+  lambda_min: 5.0
+  surround_R_at: 10.0
+  surround_M: 50
+  L_min_um: 5.0
+  eds_blur_um: 1.0
+  eds_quant_err_at: 1.5
+  element_present_at: 2.0             # 元素数ヒストグラムの「含まれる」基準
+  gd2_hist_tol: 0.20
+
+e2:
+  recall_ehull_meV: 25.0
+  tier_S_max_meV: 25.0
+  tier_A_max_meV: 70.0
+  p5_both_max_meV: 70.0               # R4: A 上限と揃える(v0.2 は 50)
+  p5_either_max_meV: 25.0
+  model_disagree_meV: 50.0            # R17
+  reliability_high: 0.9               # R16
+  reliability_mid: 0.7
+
+formb:
+  max_atoms: 20
+  high_percentile: 90.0
+  n_bags: 50
+  g2_n_boot: 1000
+  g2_recall_k: 10.0                   # recall@10% で判定
+
+integrate:
+  stage2_order: [不可, 要DSC確認, 可]
