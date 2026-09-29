@@ -1,0 +1,9 @@
+species,host,D_lo_m2s,D_hi_m2s,T_K,source,verified,note
+Al,Al(fcc),,,,,False,C4a で文献値を記入(桁の範囲)
+Cu,Al(fcc),,,,,False,
+Si,Al(fcc),,,,,False,
+Fe,Al(fcc),,,,,False,
+Ti,Al(fcc),,,,,False,拡散が非常に遅いと考えられる
+Fe,Al-Fe 金属間化合物,,,,,False,相の成長速度から求めた実効値
+Ti,Al3Ti,,,,,False,
+Ti,Ti-Si 金属間化合物,,,,,False,

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdm5"
+version = "0.2.1"
+description = "Al-Si-Ti-Fe-Cu 5元系 焼結拡散マルチプル法の計算支援(上位文書 v0.2 + v0.2.1 修正メモ)"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0", "scikit-learn>=1.3", "pyyaml>=6"]
+
+[project.optional-dependencies]
+calphad = ["pycalphad>=0.11"]
+mp = ["mp-api", "pymatgen"]
+ml = ["lightgbm", "matminer"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+sdm5 = "sdm5.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sdm5 = ["data/*.csv", "data/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
